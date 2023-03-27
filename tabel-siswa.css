@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: teal;
+}
+
+.container {
+	width: 400px;
+	background-image: url('./img/jumbotron.jpg');
+	background-position: -100px;
+	color: whitesmoke;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+	width: 100%;
+}
+
+th,
+td {
+	text-align: center;
+	border: 1px solid white;
+}
+
+img {
+	width: 100px;
+}
